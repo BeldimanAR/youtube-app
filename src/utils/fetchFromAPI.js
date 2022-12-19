@@ -3,14 +3,15 @@ import axios from "axios";
 const BASE_URL = "https://youtube-v31.p.rapidapi.com";
 
 const options = {
-  method: "GET",
   url: BASE_URL,
   params: {
-    q: "music",
-    part: "snippet,id",
-    regionCode: "US",
+    // relatedToVideoId: "7ghhRHRP6t4",
+    // type: "video",
+    // part: "id,snippet",
     maxResults: "50",
-    order: "date",
+    // order: "date",
+    // regionCode: "US",
+    // q: "music",
   },
   headers: {
     "X-RapidAPI-Key": "b4baec63demsh82ce290be2b9635p11c4bejsnd35e8314e03d",

@@ -35,7 +35,7 @@ const Feed = () => {
           Copyright 2022 BeldimanTube
         </Typography>
       </Box>
-      <Box p={2} sx={{ overflowY: "auto", height: "87.5vh", flex: 2 }}>
+      <Box p={2} sx={{ overflowY: "auto", height: "87.3vh", flex: 2 }}>
         <Typography
           variant="h4"
           fontWeight="bold"

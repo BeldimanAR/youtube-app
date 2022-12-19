@@ -18,7 +18,7 @@ const Feed = () => {
     <Stack sx={{ flexDirection: { sx: "column", md: "row" } }}>
       <Box
         sx={{
-          height: { sx: "auto", md: "92vh" },
+          height: { sx: "auto", md: "90vh" },
           borderRight: "1px solid #3d3d3d",
           px: { sx: 0, md: 2 },
         }}
@@ -35,7 +35,7 @@ const Feed = () => {
           Copyright 2022 BeldimanTube
         </Typography>
       </Box>
-      <Box p={2} sx={{ overflowY: "auto", height: "90vh", flex: 2 }}>
+      <Box p={2} sx={{ overflowY: "auto", height: "87.5vh", flex: 2 }}>
         <Typography
           variant="h4"
           fontWeight="bold"

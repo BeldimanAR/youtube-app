@@ -4,6 +4,7 @@ import { useParams } from "react-router-dom";
 import { Box } from "@mui/material";
 import { fetchFromAPI } from "../utils/fetchFromAPI";
 import ChannelCard from "./ChannelCard";
+import Videos from "./Videos";
 
 const ChannelDetail = () => {
   const [channelDetail, setChannelDetail] = useState(null);
@@ -31,7 +32,11 @@ const ChannelDetail = () => {
               "linear-gradient(90deg, rgba(58,3,61,1) 34%, rgba(194,0,255,1) 100%)",
           }}
         />
-        <ChannelCard channelDetail={channelDetail} />
+        <ChannelCard channelDetail={channelDetail} marginTop="-93px" />
+      </Box>
+      <Box display="flex" p="2">
+        <Box sx={{ mr: { sm: "100px" } }}></Box>
+        <Videos videos={videos} />
       </Box>
     </Box>
   );
